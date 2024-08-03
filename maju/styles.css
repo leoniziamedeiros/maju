@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/premium-photo/pink-hearts-wallpapers-that-are-iphone_853115-428.jpg?w=360'); /* Imagem de fundo com corações */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #696969; /* Cor cinza para a fonte */
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Adicionado para permitir posicionamento absoluto dos botões */
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#yes-button {
+    background-color: #ff69b4; /* Cor rosa */
+    color: white;
+}
+
+#no-button {
+    background-color: #8a2be2; /* Cor roxa */
+    color: white;
+}
+
+#message {
+    font-size: 18px;
+    margin-top: 20px;
+}
